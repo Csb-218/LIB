@@ -1,5 +1,5 @@
-const authors = require("./authors")
-const books = require("./books")
-const genres = require("./genres")
+const author = require("./author")
+const book = require("./book")
+const genre = require("./genre")
 
-module.exports = {authors, books, genres}
+module.exports = {author, book, genre}

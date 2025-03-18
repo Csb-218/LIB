@@ -1,6 +1,5 @@
-models/author.js
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
+
+const {sequelize,DataTypes} = require('../lib');
 
 const Author = sequelize.define('Author', {
   name: {

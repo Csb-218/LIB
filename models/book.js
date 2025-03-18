@@ -1,5 +1,6 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
+const {sequelize,DataTypes} = require('../lib');
+const Author = require('./author');
+const Genre = require('./genre');
 
 const Book = sequelize.define('Book', {
   title: {
